@@ -17,7 +17,7 @@ Before you start, ensure that you have Python installed.
 
 After installing the dependencies, you can run the script by executing the following command:
 ```bash
-python3 ./main
+python ./main
 ```
 ## Contributing
 
