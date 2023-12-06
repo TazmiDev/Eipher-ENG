@@ -2,7 +2,7 @@ import itertools
 
 
 def list_handle(my_str):
-    my_list = input_str.split()
+    my_list = my_str.split()
     unique_list = list(set(my_list))
     with open("output/passwords.txt", "w") as file:
         for length in range(1, len(unique_list) + 1):
